@@ -174,26 +174,39 @@
                                 <option value="Yes">Yes</option>
                             </select>
                         </p>
-                    </fieldset>
+                    </fieldset><br>
                         
-                    <!-- Part 3: COMING SOON -->
+                    <!-- Part 3: Other Questions -->
                     <fieldset>
                         <legend>Part 3: Other Questions </legend>
-                        <h4></h4>
+                        <h4>Below are additional questions to aid in diagnosis.</h4>
+                        <h4>Please answer the following yes/no questions below:</h4>
 
                         <!-- Have you had contact (within 6 feet for > 15 minutes), or caring for someone who is diagnosed with COVID-19 in the last 14 days and were not wearing proper personal protective equipment? (yes/no) -->
                         <p>
-
+                            <label for="contact">Have you had contact (within 6 feet for > 15 minutes), or caring for someone who is diagnosed with COVID-19 in the last 14 days and were not wearing proper personal protective equipment?</label><br>
+                            <select id="contact" name="contact">
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
                         </p>
 
                         <!-- Have you had a diagnosis of COVID-19 in the last 10 days? (yes/no) -->
                         <p>
-
+                            <label for="diag">Have you had a diagnosis of COVID-19 in the last 10 days?</label><br>
+                            <select id="diag" name="diag">
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
                         </p>
 
                         <!-- Have you travelled to any country in the last 14 days? (yes/no) -->
                         <p>
-
+                            <label for="travel">Have you travelled to any country in the last 14 days?</label><br>
+                            <select id="travel" name="travel">
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
                         </p>
 
                         <!-- If yes, what countries? -->
@@ -201,14 +214,17 @@
                         
                         <!-- Have you socialized with a group of 6 or more people in the last 14 days? (yes/no) -->
                         <p>
-
+                            <label for="social">Have you socialized with a group of 6 or more people in the last 14 days?</label><br>
+                            <select id="social" name="social">
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
                         </p>
 
                         <!-- Current temperature -->
                         <p>
 
                         </p>
-
                     </fieldset>
                     
                     <!-- Submit the form -->
@@ -218,7 +234,7 @@
 
                 </form>
             </article>
-        </section>
+        </section><br>
         <footer>Copyright 2021 Covid Center Website</footer>
     </body>
 </html>
