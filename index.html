@@ -201,16 +201,22 @@
                         </p>
 
                         <!-- Have you travelled to any country in the last 14 days? (yes/no) -->
-                        <p>
-                            <label for="travel">Have you travelled to any country in the last 14 days?</label><br>
-                            <select id="travel" name="travel">
-                                <option value="No">No</option>
-                                <option value="Yes">Yes</option>
-                            </select>
-                        </p>
+                        <fieldset>
+                            <p>
+                                <label for="travel">Have you travelled to any country in the last 14 days?</label><br>
+                                <select id="travel" name="travel">
+                                    <option value="No">No</option>
+                                    <option value="Yes">Yes</option>
+                                </select>
+                            </p>
 
-                        <!-- If yes, what countries? -->
-                        
+                            <!-- If yes, what countries? -->
+                            <!-- Dynamics/logic will be added later with javascript-->
+                            <div>
+                                <label for="travel">If yes, which countries? (separate by comma)</label><br>
+                                <input type="text" id="travel" name="travel"><br>
+                            </div>
+                        </fieldset>
                         
                         <!-- Have you socialized with a group of 6 or more people in the last 14 days? (yes/no) -->
                         <p>
@@ -223,7 +229,8 @@
 
                         <!-- Current temperature -->
                         <p>
-
+                            <label for="temp">What is your current temperature in Fahrenheit?</label><br>
+                            <input type="text" id="temp" name="temp" pattern="[0-9]"><br>
                         </p>
                     </fieldset>
                     
